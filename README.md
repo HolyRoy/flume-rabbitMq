@@ -1,17 +1,12 @@
-rabbitmq-flume-plugin
+flume rabbitmq 
 =====================
-A Flume plugin that provides a RabbitMQ *Source* and *Sink*. While
-there are other Flume(ng) plugins that do this as well, this implementation aims
-to be highly performant and provide tools for mapping message properties to Flume
-event headers.
+这是一个flume里的 rabbitmq的插件,包含rabbitmq source和sink
 
-This plugin was developed and tested against Flume 1.5.0.
+这个插件在 Flume 1.5.0测试没问题.
 
-[![Build Status](https://travis-ci.org/aweber/rabbitmq-flume-plugin.svg?branch=master)](https://travis-ci.org/aweber/rabbitmq-flume-plugin)
+原作者为:(https://github.com/aweber/rabbitmq-flume-plugin/releases) 
 
-Download
---------
-You can find the latest and greatest version on the [Releases](https://github.com/aweber/rabbitmq-flume-plugin/releases) page.
+但是其中对于routingKey部分代码有问题.对此处进行了修改.
 
 Installation Instructions
 -------------------------
